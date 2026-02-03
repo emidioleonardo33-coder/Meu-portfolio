@@ -1,163 +1,298 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólio de Leonardo de Lima Emídio</title>
-    <link rel="stylesheet" href="estilo.css">   
+    <meta name="description" content="Portfólio de Leonardo de Lima Emídio - Desenvolvedor Full Stack em formação">
+    <meta name="keywords" content="desenvolvedor, python, php, javascript, portfólio, full stack">
+    <meta name="author" content="Leonardo de Lima Emídio">
+    <title>Leonardo de Lima Emídio | Desenvolvedor Full Stack</title>
+    
+    <!-- Link para o CSS externo -->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-    <div class="header">
-        <img src="img/perfil.jpeg" alt="Foto de Perfil" class="profile-pic">
+    <!-- Hero Section -->
+    <div class="hero">
+        <img src="img/perfil.jpeg" alt="Leonardo de Lima Emídio" class="profile-img">
         <h1>LEONARDO DE LIMA EMÍDIO</h1>
-        <p>Profissional competente, responsável e comunicativo</p>
+        <p>Desenvolvedor Full Stack em Formação</p>
+        <div>
+            <span class="badge">Python</span>
+            <span class="badge">PHP</span>
+            <span class="badge">JavaScript</span>
+            <span class="badge">MySQL</span>
+            <span class="badge">Full Stack</span>
+        </div>
     </div>
 
     <div class="container">
-        <div class="section">
-            <h2>Contato</h2>
-            <ul class="contact-info">
-                <li><strong>Local:</strong> Rua Morzalândia, 73 • Capão do Embira • São Paulo/SP</li>
-                <li><strong>Idade:</strong> 34 anos</li>
-                <li><strong>Telefone:</strong> (11) 94900 0368 • (11) 98983 0836</li>
-                <li><strong>Email:</strong> emidioleonardo33@gmail.com</li>
-            </ul>
-        </div>
-        
-        <div class="section">
-            <h2>Objetivo</h2>
-            <p>Profissional de 34 anos com experiência como mecânico, atualmente em transição de carreira e cursando Desenvolvimento de Sistemas. Busco oportunidade para aplicar minha dedicação, disciplina e capacidade de resolução de problemas, contribuindo para o crescimento da empresa e adquirindo experiência prática na área de tecnologia.</p>
-        </div>
-
-        <div class="section">
-            <h2>Formação</h2>
-            <div class="formation-item">
-                <h3>Curso de Desenvolvimento de Sistemas</h3>
-                <p><strong>Instituição:</strong> ETEC Adhemar Batista Hemeritas</p>
-                <p><strong>Situação:</strong> Cursando - 3º Semestre</p>
+        <!-- Contato -->
+        <section id="contato">
+            <h2>📞 Contato</h2>
+            <div class="contact-grid">
+                <div class="contact-item">
+                    <strong>📍 Local:</strong>
+                    <span>Rua Morzalândia, 73 • Capão do Embira • São Paulo/SP</span>
+                </div>
+                <div class="contact-item">
+                    <strong>🎂 Idade:</strong>
+                    <span>35 anos</span>
+                </div>
+                <div class="contact-item">
+                    <strong>📱 Telefone:</strong>
+                    <span>(11) 94900-0368 • (11) 98983-0836</span>
+                </div>
+                <div class="contact-item">
+                    <strong>📧 Email:</strong>
+                    <span>emidioleonardo33@gmail.com</span>
+                </div>
             </div>
-            <div class="formation-item">
+        </section>
+
+        <!-- Objetivo -->
+        <section id="objetivo">
+            <h2>🎯 Objetivo Profissional</h2>
+            <p style="font-size: 1.1rem; line-height: 1.8; color: var(--text-light);">
+                Profissional completo, responsável e comunicativo com 35 anos e mais de 10 anos de experiência. 
+                Atualmente em transição de carreira para Desenvolvimento de Sistemas, combinando maturidade profissional 
+                com formação técnica sólida. Busco minha primeira oportunidade como <strong>Desenvolvedor Júnior</strong> 
+                para aplicar minha dedicação, disciplina e capacidade comprovada de resolução de problemas complexos, 
+                contribuindo para o crescimento da empresa e adquirindo experiência prática na área de tecnologia.
+            </p>
+        </section>
+
+        <!-- Formação -->
+        <section id="formacao">
+            <h2>🎓 Formação Acadêmica</h2>
+            
+            <div class="education-item">
+                <h3>Superior de Tecnologia em Análise e Desenvolvimento de Sistemas</h3>
+                <p><strong>Instituição:</strong> UNICID - Centro Universitário Cidade de São Paulo</p>
+                <p><strong>Polo:</strong> Vila Antonieta</p>
+                <p><strong>RGM:</strong> 47425229</p>
+                <span class="status-badge status-ongoing">EM ANDAMENTO</span>
+            </div>
+
+            <div class="education-item">
+                <h3>Técnico em Desenvolvimento de Sistemas</h3>
+                <p><strong>Instituição:</strong> ETEC Adhemar Batista Heméritas</p>
+                <p><strong>Ano de Conclusão:</strong> 2024</p>
+                <span class="status-badge status-complete">✓ CONCLUÍDO</span>
+            </div>
+
+            <div class="education-item">
                 <h3>Ensino Médio</h3>
-                <p><strong>Instituição:</strong> E.E PROFª ALMERINDA RODRIGUES DE MELO</p>
-                <p><strong>Situação:</strong> Completo</p>
+                <p><strong>Instituição:</strong> E.E PROF.ª ALMERINDA RODRIGUES DE MELO</p>
+                <span class="status-badge status-complete">✓ CONCLUÍDO</span>
             </div>
-        </div>
+        </section>
 
-        <div class="section">
-            <h2>Habilidades</h2>
-            <ul class="skills-list">
-                <li>
-                    <strong>Linguagens & Sistemas:</strong>
+        <!-- Habilidades -->
+        <section id="habilidades">
+            <h2>🛠️ Habilidades Técnicas</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h4>💻 Linguagens & Sistemas</h4>
                     <ul>
-                        <li>HTML, CSS, PHP, Python</li>
+                        <li>HTML5, CSS3</li>
+                        <li>JavaScript</li>
+                        <li>Python</li>
+                        <li>PHP</li>
                         <li>Linux</li>
                     </ul>
-                </li>
-                <li>
-                    <strong>Banco de Dados:</strong>
+                </div>
+
+                <div class="skill-category">
+                    <h4>🗄️ Banco de Dados</h4>
                     <ul>
-                        <li>MySQL, NoSQL</li>
+                        <li>MySQL</li>
+                        <li>NoSQL</li>
                     </ul>
-                </li>
-                <li>
-                    <strong>Ferramentas de Desenvolvimento:</strong>
+                </div>
+
+                <div class="skill-category">
+                    <h4>🧰 Ferramentas de Desenvolvimento</h4>
                     <ul>
-                        <li>VSCode, Visual Studio, GitHub, IDLE, Replit</li>
+                        <li>VS Code</li>
+                        <li>Visual Studio</li>
+                        <li>GitHub</li>
+                        <li>Git</li>
+                        <li>Replit</li>
+                        <li>VirtualBox</li>
                     </ul>
-                </li>
-                <li>
-                    <strong>Ferramentas de Design & Outros:</strong>
+                </div>
+
+                <div class="skill-category">
+                    <h4>🎨 Design & Criatividade</h4>
                     <ul>
-                        <li>Figma, Adobe Photoshop, Illustrator</li>
-                        <li>VirtualBox, Word e Excel (Básico)</li>
+                        <li>Figma</li>
+                        <li>Adobe Photoshop</li>
+                        <li>Illustrator</li>
                     </ul>
-                </li>
-                <li>
-                    <strong>Ferramentas de IA:</strong>
+                </div>
+
+                <div class="skill-category">
+                    <h4>🤖 Ferramentas de IA</h4>
                     <ul>
-                        <li>ChatGPT, Crock, Cursor AI, Gemini, Deepseek</li>
+                        <li>ChatGPT</li>
+                        <li>Claude AI</li>
+                        <li>Cursor AI</li>
+                        <li>Gemini</li>
+                        <li>Deepseek</li>
                     </ul>
-                </li>
-            </ul>
-        </div>
-        
-        <div class="section">
-            <h2>Experiência Profissional</h2>
-            <div class="job-item">
+                </div>
+
+                <div class="skill-category">
+                    <h4>📊 Produtividade</h4>
+                    <ul>
+                        <li>Microsoft Word</li>
+                        <li>Microsoft Excel</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experiência Profissional -->
+        <section id="experiencia">
+            <h2>💼 Experiência Profissional</h2>
+
+            <div class="experience-item">
                 <h3>Centro Automotivo Sapopemba</h3>
-                <p><strong>Cargo:</strong>Mecânico de Suspensão e alinhamento</p>
-                <p><strong>Período:</strong> 15/04/2021 a 01/02/2024</p>
-            </div>
-            
-            <div class="job-item">
-                <h3>GV Display ltda.</h3>
-                <p><strong>Cargo:</strong> Líder de Produção</p>
-                <p><strong>Período:</strong> 14/09/2013 a 28/08/2016</p>
+                <p class="role">Mecânico de Suspensão e Alinhamento</p>
+                <p class="period">📅 15/04/2021 a 01/02/2024 (2 anos e 9 meses)</p>
+                <p>Diagnóstico e reparo de sistemas de suspensão, alinhamento de direção, análise técnica e resolução de problemas complexos sob pressão.</p>
             </div>
 
-            <div class="job-item">
-                <h3>Jáguar centro automotivo</h3>
-                <p><strong>Cargo:</strong> Auxiliar de Mecânico</p>
-                <p><strong>Período:</strong> 10/02/2013 a 18/08/2013</p>
+            <div class="experience-item">
+                <h3>GV Display Ltda.</h3>
+                <p class="role">Líder de Produção</p>
+                <p class="period">📅 14/09/2013 a 28/08/2016 (3 anos)</p>
+                <p>Liderança de equipe de 15+ colaboradores, gestão de KPIs, otimização de processos produtivos e controle de qualidade.</p>
             </div>
-        </div>
 
-        <div class="section">
-            <h2>Projetos de Desenvolvimento</h2>
-            <div class="projects-container">
+            <div class="experience-item">
+                <h3>Jáguar Centro Automotivo</h3>
+                <p class="role">Auxiliar de Mecânico</p>
+                <p class="period">📅 10/02/2013 a 18/08/2013 (7 meses)</p>
+                <p>Introdução aos sistemas automotivos, manutenção preventiva e corretiva, trabalho em equipe.</p>
+            </div>
+        </section>
+
+        <!-- Projetos de Desenvolvimento -->
+        <section id="projetos-dev">
+            <h2>💻 Projetos de Desenvolvimento</h2>
+            <div class="projects-grid">
                 <div class="project-card">
-                    <img src="img/treinamento.jpeg" alt="Imagem do Projeto de Site Pessoal">
-                    <h3>Site de Portfólio Pessoal</h3>
-                    <p>Desenvolvimento de um site de portfólio responsivo utilizando HTML e CSS para apresentar minhas habilidades e projetos. O design foi planejado no Figma.</p>
+                    <img src="img/treinamento.jpeg" alt="Site de Portfólio">
+                    <div class="project-content">
+                        <h3>Site de Portfólio Pessoal</h3>
+                        <p>Desenvolvimento de um site de portfólio responsivo utilizando HTML5, CSS3 e JavaScript para apresentar habilidades e projetos. Design planejado no Figma com foco em UI/UX.</p>
+                        <div>
+                            <span class="project-tag">HTML5</span>
+                            <span class="project-tag">CSS3</span>
+                            <span class="project-tag">JavaScript</span>
+                            <span class="project-tag">Figma</span>
+                        </div>
+                    </div>
                 </div>
+
                 <div class="project-card">
-                    <img src="img/debian12.jpeg" alt="Imagem do Projeto de Automação" >
-                    <h3>Script de Automação em Python</h3>
-                    <p>Criação de um script em Python para automatizar a organização de arquivos em pastas, movendo-os com base em sua extensão, melhorando a produtividade.</p>
+                    <img src="img/debian12.jpeg" alt="Script Python">
+                    <div class="project-content">
+                        <h3>Script de Automação em Python</h3>
+                        <p>Criação de script Python para automatizar a organização de arquivos em pastas, movendo-os com base em suas extensões, aumentando significativamente a produtividade.</p>
+                        <div>
+                            <span class="project-tag">Python</span>
+                            <span class="project-tag">Automação</span>
+                            <span class="project-tag">File System</span>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
+        </section>
 
-        <div class="section">
-            <h2>Experiência em Mecânica</h2>
-            <div class="projects-container">
+        <!-- Projetos de Mecânica -->
+        <section id="projetos-mecanica">
+            <h2>🔧 Experiência em Mecânica Automotiva</h2>
+            <div class="projects-grid">
                 <div class="project-card">
-                    <img src="img/freios.jpeg" alt="Imagem do Reparo de Freios">
-                    <h3>Reparo Completo de Freios  </h3>
-                    <p>Descrição: Projeto de substituição e manutenção de todo o sistema de freios, incluindo discos, pastilhas e fluído. Resultado: Melhoria de 30% na eficiência de frenagem.</p>
+                    <img src="img/freios.jpeg" alt="Reparo de Freios">
+                    <div class="project-content">
+                        <h3>Reparo Completo de Sistema de Freios</h3>
+                        <p><strong>Descrição:</strong> Projeto de substituição e manutenção integral do sistema de freios, incluindo discos, pastilhas e fluido.</p>
+                        <p><strong>Resultado:</strong> Melhoria de 30% na eficiência de frenagem, todas as medições dentro das especificações técnicas.</p>
+                    </div>
                 </div>
+
                 <div class="project-card">
                     <video controls>
                         <source src="video/reparo-eletrico.mp4" type="video/mp4">
                         Seu navegador não suporta o elemento de vídeo.
                     </video>
-                    <h3>Diagnóstico e Solução de Falha Elétrica</h3>
-                    <p>Descrição: Identificação e reparo de um curto-circuito no sistema de iluminação de um veículo. Resultado: Restabelecimento completo das funções elétricas, evitando danos maiores.</p>
+                    <div class="project-content">
+                        <h3>Diagnóstico e Solução de Falha Elétrica</h3>
+                        <p><strong>Descrição:</strong> Identificação e reparo de curto-circuito intermitente no sistema de iluminação veicular.</p>
+                        <p><strong>Resultado:</strong> Restabelecimento completo das funções elétricas, prevenção de danos maiores ao sistema.</p>
+                    </div>
                 </div>
             </div>
-        </div>
+        </section>
 
-        
+        <!-- Diferenciais -->
+        <section id="diferenciais">
+            <h2>✨ Diferenciais Competitivos</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h4>🎓 Dupla Formação</h4>
+                    <p>Técnico concluído + Superior em andamento = Visão completa do desenvolvimento</p>
+                </div>
+                <div class="skill-category">
+                    <h4>💼 10+ Anos de Experiência</h4>
+                    <p>Maturidade profissional e soft skills desenvolvidas em liderança e gestão</p>
+                </div>
+                <div class="skill-category">
+                    <h4>🤖 Domínio de IA</h4>
+                    <p>Uso avançado de 5+ ferramentas de IA para desenvolvimento assistido</p>
+                </div>
+                <div class="skill-category">
+                    <h4>🧠 Pensamento Analítico</h4>
+                    <p>Anos diagnosticando sistemas complexos = capacidade de debugar qualquer código</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Redes Sociais -->
+        <section id="social">
+            <h2>🌐 Conecte-se Comigo</h2>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/Leonardo-De-lima" class="social-btn" target="_blank">
+                    <img src="img/linkedin.jpg" alt="LinkedIn">
+                    LinkedIn
+                </a>
+                <a href="https://github.com/Emidioleonardo33-coder" class="social-btn" target="_blank">
+                    <img src="img/github.jpg" alt="GitHub">
+                    GitHub
+                </a>
+                <a href="mailto:emidioleonardo33@gmail.com" class="social-btn">
+                    <span style="font-size: 24px;">📧</span>
+                    Email
+                </a>
+            </div>
+        </section>
     </div>
 
-    <!-- Botão Flutuante do WhatsApp -->
-    <a href="https://wa.me/5511949000368" class="whatsapp-float" target="_blank" rel="noopener noreferrer">
-        <img src="img/whatsapp-icon.jpeg" alt="Fale Conosco pelo WhatsApp" />
+    <!-- WhatsApp Float Button -->
+    <a href="https://wa.me/5511949000368" class="whatsapp-float" target="_blank" title="Fale comigo no WhatsApp">
+        <img src="img/whatsapp-icon.jpeg" alt="WhatsApp">
     </a>
 
-    <footer class="footer">
-        <div class="footer-links">
-            <!-- Substitua # pelos seus links reais -->
-            <a href="https://www.linkedin.com/in/Leonardo-De-lima" target="_blank" rel="noopener noreferrer">
-                <img src="img/linkedin.jpg" alt="LinkedIn"> LinkedIn
-            </a>
-            <a href="https://github.com/leo33dvs" target="_blank" rel="noopener noreferrer">
-                <img src="img/github.jpg" alt="GitHub"> GitHub
-            </a>
-        </div>
+    <!-- Footer -->
+    <footer>
         <p>&copy; 2025 Leonardo de Lima Emídio. Todos os direitos reservados.</p>
+        <p style="margin-top: 10px; font-size: 0.9rem;">
+            Desenvolvedor Full Stack em Formação | Python • PHP • JavaScript • MySQL
+        </p>
     </footer>
-
 </body>
 </html>
