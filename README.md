@@ -4,7 +4,7 @@
 
 ![Banner](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Leonardo%20Emídio&fontSize=50&fontColor=fff&animation=twinkling&fontAlignY=35)
 
-![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2E9EF7&center=true&vCenter=true&width=650&lines=Desenvolvedor+Full+Stack+em+Formação;Estudante+de+ADS+na+UNICID;Técnico+em+Desenvolvimento+de+Sistemas;10%2B+Anos+de+Experiência+Profissional;Python+%7C+PHP+%7C+JavaScript+%7C+MySQL;Transformando+Experiência+em+Código)
+![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2E9EF7&center=true&vCenter=true&width=650&lines=Desenvolvedor+Full+Stack+em+Formação;Estudante+de+ADS+na+cruzeiro+do+sul;Técnico+em+Desenvolvimento+de+Sistemas;10%2B+Anos+de+Experiência+Profissional;Python+%7C+PHP+%7C+JavaScript+%7C+MySQL;Transformando+Experiência+em+Código)
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/seu-linkedin)
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Emidioleonardo33-coder)
